@@ -1,3 +1,5 @@
+using AutoMapper;
+using Gurmany.Services.CouponAPI;
 using Gurmany.Services.CouponAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(option=>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+IMapper mapper = MapperConfig.RegisterMaps().CreateMapper();
+builder.Services.AddSingleton(mapper);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
