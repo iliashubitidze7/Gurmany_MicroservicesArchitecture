@@ -1,0 +1,6 @@
+@Gurmany.Services.CouponAPI_HostAddress = http://localhost:5187
+
+GET {{Gurmany.Services.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
