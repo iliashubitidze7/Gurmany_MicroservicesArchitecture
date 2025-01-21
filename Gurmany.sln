@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{9919
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5D3F2562-8811-4BBB-86AC-CC2A6E1E23C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gurmany.Services.CouponAPI", "Gurmany.Services.CouponAPI\Gurmany.Services.CouponAPI.csproj", "{5DAB4F08-76E5-4638-83B8-3BCD9463A1FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gurmany.Services.CouponAPI", "Gurmany.Services.CouponAPI\Gurmany.Services.CouponAPI.csproj", "{5DAB4F08-76E5-4638-83B8-3BCD9463A1FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gurmany.Web", "Gurmany.Web\Gurmany.Web.csproj", "{6B070376-CD5B-4F1B-813D-C3573B23C402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{5DAB4F08-76E5-4638-83B8-3BCD9463A1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DAB4F08-76E5-4638-83B8-3BCD9463A1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DAB4F08-76E5-4638-83B8-3BCD9463A1FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B070376-CD5B-4F1B-813D-C3573B23C402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B070376-CD5B-4F1B-813D-C3573B23C402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B070376-CD5B-4F1B-813D-C3573B23C402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B070376-CD5B-4F1B-813D-C3573B23C402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5DAB4F08-76E5-4638-83B8-3BCD9463A1FE} = {5D3F2562-8811-4BBB-86AC-CC2A6E1E23C2}
+		{6B070376-CD5B-4F1B-813D-C3573B23C402} = {DF54EC2E-D8AD-4D46-BA1E-D5DA104FA07A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AED18B3-8CFD-4558-B961-67EC9AE0835A}
